@@ -1,0 +1,78 @@
+.home {
+     
+    position: relative;
+    
+}
+.home .bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("./image/background.jpg");
+    filter: blur(5px);
+    z-index: -1;
+}
+
+.home header{
+    height: 100px;
+    
+    text-align: center;
+}
+.home nav{
+    min-height: 50px;
+    background-color:rgb(85, 107, 47);
+    text-align: center;
+    position: sticky;
+    top : 0 ;
+    left: 0;
+
+    /* flex , grid */
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+    gap : 40px;
+}
+
+.home nav a{
+    text-decoration: none;
+    color: white;    
+}
+.home main{
+    height: 500px;
+    background-color: rgba(143, 188, 143, 0.192);
+    text-align: center;
+    
+}
+.home main h1{
+    color: white;
+    font-size: 90Px;
+}
+.home main p{
+    color: white;
+    font-size: 20px;
+    margin-left: 27%;
+    margin-right: 27%;
+}
+.home main a{
+    color: white;
+
+}
+.home section{
+    height: 500px;
+    background-color: rgba(118, 187, 141, 0.116);
+
+}
+.home footer{
+    height: 100px;
+    background-color: rgba(209, 180, 218, 0.685);
+    text-align: center;
+}
+.home footer p{
+    color: white;
+}
+/* .home body{
+    background-image: url("./image/background.jpg") ;
+} */
+
